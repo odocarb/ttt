@@ -1,0 +1,118 @@
+/*
+Theme Name: BetBonus Brasil
+Theme URI: https://www.betbonusbrasil.com/
+Author: BetBonus Brasil
+Version: 1.0.0
+Updated: 2019-12-27
+*/
+
+/* General */
+body {
+    margin: 0;
+}
+
+
+/* Show More/Less */
+.show-more-less-layout > .content-layout {
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+
+/* Ajax & Pagination */
+.card.hide {
+    display: none !important;
+}
+
+
+/* Toggle */
+.toggle-layout .toggle.close .toggle-body {
+	display: none;
+}
+
+
+/* Accordion */
+.accordion-layout .accordion.close .accordion-body {
+	display: none;
+}
+
+
+/* Tab */
+.tab-layout .tab-body .content-layout.close {
+    display: none;
+}
+
+
+/* Slider */
+.carousel {
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-slide {
+    width: -webkit-fill-available;
+}
+
+.slide {
+    display: inline-flex;
+    width: 100%;
+}
+
+.slide:not(:first-child) {
+    margin-left: -3.5px;
+}
+
+
+/* Sidebar */
+.secondary.left {
+    float: left;
+    width: 30%;
+}
+
+.primary.right {
+    float: right;
+    width: 70%;
+}
+
+.secondary.right {
+    float: right;
+    width: 30%;
+}
+
+.primary.left {
+    float: left;
+    width: 70%;
+}
+
+
+/* Fixed Header */
+.fixed-header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+
+/* Fixed Widget */
+.fixed-widget {
+	position: fixed;
+}
+
+
+/* Fixed CTA */
+.fixed-cta.active {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+/* Menu */
+@media (min-width: 1200px) {
+	.icon.burger {
+		display: none;
+	}
+}
